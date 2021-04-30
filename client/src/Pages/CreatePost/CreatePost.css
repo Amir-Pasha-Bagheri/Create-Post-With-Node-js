@@ -1,0 +1,36 @@
+form {
+    text-align: left;
+    border: 1px solid black;
+    margin: 30px 20% 0 20%;
+    border-radius: 8px;
+}
+form button{
+    margin: 0 30% 20px 30%;
+    width: 40%;
+}
+form div{
+    margin: 12px 0 0 5%;
+}
+form input{
+    height: 20px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    transition: 0.3s;
+}
+form input:focus{
+    border: none;
+    outline: none;
+    background-color: rgb(211, 211, 211);
+}
+form input[type='file']{
+    border: none;
+    height: 25px;
+}
+form textarea{
+    resize: none;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    outline: none;
+}
