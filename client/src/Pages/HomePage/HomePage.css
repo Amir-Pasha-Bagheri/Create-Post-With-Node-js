@@ -14,3 +14,15 @@ button:hover{
     font-size: 18px;
     height: 35px;
 }
+
+.Post{
+    width: 50%;
+    margin: 10px 25%;
+    text-align: left;
+    background-color: rgb(197, 197, 197);
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+.Post h4{
+    text-align: center;
+}
